@@ -87,6 +87,7 @@ there is some controls for your spinner:
 
 | Control | Requierement | Info |
 | :------------- |:-------------:| :-----|
+|  spinnerHintTextSize  |: in dp :| : for hint textsize |
 | getSelectedItem() | - | Result = `String`: Returns the selected item |
 | isSelected() | - | Result = `boolean`: Returns **true** if any item selected, and vice versa |
 | setSelection(NUMBER) | `int` position | You should pass the **position of item** to select the item programatically |
