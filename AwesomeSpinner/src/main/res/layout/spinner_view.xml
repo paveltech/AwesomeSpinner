@@ -8,10 +8,9 @@
     <android.support.v7.widget.AppCompatButton
         android:id="@+id/awesomeSpinner_hintButton"
         android:elevation="0dp"
-        android:textSize="@dimen/awesomeSpinner_hintTextSize"
         android:gravity="right|center_vertical"
         android:textColor="@android:color/darker_gray"
-        android:text="انتخاب کنید"
+        android:text="Select Here"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingLeft="8dp"
@@ -35,7 +34,6 @@
         android:background="?android:attr/listDivider"
         android:layout_width="match_parent"
         android:layout_height="1dp" />
-
 
     <com.isapanah.awesomespinner.spinnerDefaultSelection
         android:id="@+id/awesomeSpinner_spinner"

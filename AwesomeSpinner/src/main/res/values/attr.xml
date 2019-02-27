@@ -8,7 +8,9 @@
             <flag name="rtl" value="1" />
         </attr>
 
-        <attr name="spinnerHint" format="string"/>
+        <attr name="spinnerHint" format="string" />
+        <attr name="spinnerHintTextSize" format="dimension" />
+        <attr name="spinnerTextSize" format="dimension" />
 
     </declare-styleable>
 

@@ -32,6 +32,7 @@
         android:id="@+id/awesomeSpinner_example_rtl"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        app:spinnerHintTextSize="5dp"
         app:spinnerDirection="rtl"
         app:spinnerHint="استان خود را انتخاب کنید" />
 
