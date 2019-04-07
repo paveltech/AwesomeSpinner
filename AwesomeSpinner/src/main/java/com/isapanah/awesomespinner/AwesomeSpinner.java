@@ -104,6 +104,7 @@ public class AwesomeSpinner extends RelativeLayout {
         initiateSpinnerCharSequence();
     }
 
+
     public boolean isSelected() {
         return _isSelected;
     }
@@ -272,7 +273,7 @@ public class AwesomeSpinner extends RelativeLayout {
         this._hintButton.setTextColor(isSelected() ? this.HINT_BUTTON_COLOR : this.HINT_BUTTON_NOT_SELECTED_COLOR);
     }
 
-    private void setHintButtonText(String label) {
+    public void setHintButtonText(String label) {
         _hintButton.setText(label);
         setHitButtonStyle();
     }

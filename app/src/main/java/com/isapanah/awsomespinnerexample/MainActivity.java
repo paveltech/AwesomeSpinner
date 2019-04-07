@@ -33,6 +33,11 @@ public class MainActivity extends AppCompatActivity {
         spinnerRTL = (AwesomeSpinner) findViewById(R.id.awesomeSpinner_example_rtl);
         spinnerLTR = (AwesomeSpinner) findViewById(R.id.awesomeSpinner_example_ltr);
 
+
+
+        spinnerRTL.setHintButtonText("hello world");
+
+
         //Modify styles of spinner
         spinnerRTL.setHintTextColor(Color.MAGENTA);
         spinnerLTR.setSelectedItemHintColor(Color.BLUE);
